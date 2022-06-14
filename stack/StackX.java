@@ -1,9 +1,9 @@
 package stack;
 
 public class StackX {
-    int[] stackArray;//stack array variable
-    int top;//top index variable
-    int maxSize;//max size variable
+    private int[] stackArray;//stack array variable
+    private int top;//top index variable
+    private int maxSize;//max size variable
 
     //parameterized constructor
     public StackX(int size) {
