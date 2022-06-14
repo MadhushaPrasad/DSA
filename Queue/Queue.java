@@ -50,4 +50,14 @@ public class Queue {
         }
     }
 
+    // check if queue is empty
+    public boolean isEmpty() {
+        return (nItems == 0);
+    }
+
+    //check if queue is full
+    public boolean isFull() {
+        return (nItems == maxSize);
+    }
+
 }
